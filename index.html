@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>捷松纯正油</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            font-size: 2em;
+            font-weight: bold;
+            color: #1a3e8c;
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+        .subtitle {
+            font-size: 2em;
+            color: #1a3e8c;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .content {
+            background-image: url(data:image/png;base64,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);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 50px 30px 50px 30px;
+            display: inline-block;
+            margin-top: 50px;
+            border: 3px solid #1a3e8c;
+        }
+        .content h1 {
+            font-size: 2em;
+            color: #ef2a2a;
+            margin: 0;
+        }
+        .content p {
+            font-size: 1em;
+            margin: 25px 0;
+        }
+        .content .english {
+            font-size: 1em;
+            color: #333;
+        }
+        .registered-text {
+            font-size: 24px;
+            color: #1a1a1a;
+            position: relative;
+            display: inline-block;
+            padding: 0 10px 0 0;
+        }
+        .registered-text::before {
+            content: '®';
+            font-size: 12px;
+            color: #1a3e8c;
+            position: absolute;
+            top: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">捷松<span class="registered-text"></span>纯正油</div>
+        <div class="subtitle">JIESONG</div>
+        <div class="content">
+            <h1>原装正品</h1>
+            <p>请放心使用！</p>
+            <p class="english">Home furnishings
+Please feel free to use!</p>
+        </div>
+    </div>
+</body>
